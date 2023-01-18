@@ -1,0 +1,106 @@
+/* * {
+    box-sizing: border-box;
+    color: #292929;
+    font-family: "Speedee",arial,helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+
+}
+
+body {
+    background-image: url(../img/papel3.jpg);
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+nav {
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+    box-shadow:  2px 4px 0 rgb(0 0 0 / 8%);
+}
+
+footer {
+    width: 100%;
+    padding: 0.5%;
+    background-color: rgba(201, 200, 200, 0.555);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+
+#mc01,
+#mc02,
+#mc03 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    box-shadow: 0 3px 10px rgb(201 200 200);
+    border-radius: 3%;
+    transition: all 0.5s;
+}
+
+#mc01:hover,
+#mc02:hover,
+#mc03:hover {
+    transform: scale(1.1);
+} */
+
+
+/* Imagenes portada y banners */
+/* .img-fluid {
+    width: 100%;
+    height: auto;
+
+} */
+
+/* Video portada */
+video {
+    width: 100vw;    
+    clip-path: inset(6% 0% 6% 0%);
+    /*recorte de bordes negros sup e inf*/
+
+    /* position: relative;
+    top: -35px; */
+    
+}
+.portada {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+/* .portada {
+    position: relative;
+    top: 3em;
+    width: 100vw;
+} */
+
+.banners {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
