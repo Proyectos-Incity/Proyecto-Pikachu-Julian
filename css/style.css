@@ -127,7 +127,7 @@ a:hover {
 
 /* Agregado de imagen de fondo tipo papel desde 1540(Alejandra) */
 @media screen and (min-width:1540px) {
-    body {
+    .portada {
         background-image: url(../img/papel2.jpg);
     }
    
