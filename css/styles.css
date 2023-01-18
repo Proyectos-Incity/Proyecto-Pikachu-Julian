@@ -104,3 +104,8 @@ video {
     flex-direction: column;
     width: 100vw;
 }
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
