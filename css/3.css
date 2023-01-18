@@ -1,24 +1,5 @@
-* {
-    box-sizing: border-box;
-    color: #333;
-    /* font-family: "Roboto", Sans-serif; */
-    font-family: "Speedee", arial, helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
 
-body {
-    background-image: url(../img/papel2.jpg);
-}
-
-h1 {
-    font-size: 1.5em;
-    font-weight: 600;
-    text-align: center;
-}
-
-
-path {
+#Capa_1 path {
     cursor: pointer;
     stroke: black;
     stroke-width: 1px;
@@ -39,7 +20,6 @@ path {
     flex-direction: row;
     flex-wrap: wrap;    
     margin: 1%;
-
 }
 
 .prev-color {
@@ -58,43 +38,19 @@ path {
     opacity: 1;
 }
 
-nav {
-    width: 100%;
-    padding: 0.5%;
-    background-color: rgba(201, 200, 200, 0.555);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-footer {
-    width: 100%;
-    padding: 0.5%;
-    background-color: rgba(201, 200, 200, 0.555);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav a {
-    text-decoration: none;
-}
-
 .section1 {   
     display: flex;
     flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: center;
-
+    margin-top: 5em;
 }
-
 
 .pikachu {
     width: 65%; 
     margin-top: 1%;
     margin-left: 1%;
-
 }
 
 .colores {
@@ -106,14 +62,12 @@ nav a {
     box-shadow: 0 3px 10px rgb(201 200 200);
     border-radius: 5em;
     background-color: white;
-    width: 25%;
-    
+    width: 25%;    
 }
 
 #paint {
     margin-left: 2%;
     cursor: pointer;
-
 }
 
 .botones {
@@ -148,12 +102,13 @@ nav a {
 }
 
 .undo:hover,
-#downloadSVG:hover {
+#downloadSVG:hover,
+.reset:hover {
     transform: scale(1.1);
     transition: all 0.5s;
 }
 
-.clear {
+.reset {
     padding: 5%;
     margin: 1rem;
     border-radius: 1.5rem;
@@ -162,10 +117,6 @@ nav a {
     border: solid 1px #fec208;
     cursor: pointer;
 }
-
-
-
-
 
 /* Para celular vertical */
 @media only screen and (max-width: 1023px) {

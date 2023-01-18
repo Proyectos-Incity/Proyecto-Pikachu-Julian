@@ -58,8 +58,8 @@ downloadSVG.addEventListener('click', downloadSVGAsText);
 
 //Boton RESET
 let drawing = document.getElementById("Capa_1")
-let clear = document.querySelector('.clear')
-    clear.addEventListener('click', (e) => {
+let reset = document.querySelector('.reset')
+    reset.addEventListener('click', (e) => {
         e.preventDefault()
         let test = drawing.querySelectorAll('path')
         test.forEach((element) => {
