@@ -6,8 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McDonald's Pokemon</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="../css/style.css">    
+    <link rel="stylesheet" href="../css/3.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../img/favicon.ico">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
@@ -16,7 +23,7 @@
         <nav role="navigation" aria-label="main navigation" class="navbar mcd-navbar-header mcd-container">
             <div class="navbar-brand">
                 <a href="../index.html" class="navbar-item nuxt-link-active">
-                    <img src="assets/mcdonalds-logo-footer-bg-white.png" alt="Mc-Donalds App"
+                    <img src="../assets/mcdonalds-logo-footer-bg-white.png" alt="Mc-Donalds App"
                         class="navbar-brand__logo">
                 </a>
                 <a role="button" aria-label="menu" aria-expanded="false" class="navbar-burger burger">
@@ -39,8 +46,8 @@
                         <a href="" target="_self" class="mcd-link-resolver mcd-link-page navbar-item">
                             <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject"
                                 class="mcd-media-image">
-                                <img src="assets/MCD_Descarga_la_app_406b004273.png" alt="McDonald's - Descarga la app"
-                                    loading="lazy">
+                                <img src="../assets/MCD_Descarga_la_app_406b004273.png"
+                                    alt="McDonald's - Descarga la app" loading="lazy">
                             </figure>
                             Descarga la app
                         </a>
@@ -126,76 +133,96 @@
     </header>
     <main>
         <section class="middle">
-            <section class="portada">
-                <video autoplay loop muted>
-                    <source src="img/video1.mp4" type="video/mp4" />
-                </video>
+
+            <section class="section1">
+                <div class="pikachu">
+                    <!--  -->
+                </div>
+
+                <div class="colores">
+                    <label for="paint" id="label1">Elige el color</label>
+                    <input type="color" id="paint" name="paint" value="#fec208">
+
+                    <div class="previous-colors">
+                        <div class="prev-color" style="background-color: #FF0000" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #FF7F00" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #FFFF00" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #7FFF00" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #00FF00" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #00FF7F" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #00FFFF" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #007FFF" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #0000FF" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #7F00FF" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #FF00FF" ,="" margin:2%"=""></div>
+                        <div class="prev-color" style="background-color: #FF007F" ,="" margin:2%"=""></div>
+                    </div>
+
+                    <!-- Botones -->
+                    <div class="botones">
+                        <button class="undo"><img src="../img/reply.png" alt="" style="width: 2em"
+                                class="animate__animated animate__rotateIn animate__infinite animate__slow"></button>
+                        <button class="reset"><img src="../img/recycle-bin2.png" alt="" style="width: 2em"
+                                class="animate__animated animate__rubberBand animate__infinite animate__slow"></button>
+                        <button id="downloadSVG"><img src="../img/cloud-computing.png" alt="" style="width: 2em"
+                                class="animate__animated animate__fadeOutDown animate__infinite animate__slow"></button>
+
+                    </div>
+                </div>
             </section>
 
-            <section class="banners">
-                <a href="html/1pikachu.html"><img class="img-fluid" src="img/1Pikachu.jpg" alt=""></a>
-                <a href="html/2eevee.html"><img class="img-fluid" src="img/2Eevee.jpg" alt=""></a>
-                <a href="html/3bulbasaur.html"><img class="img-fluid" src="img/3Bulbasaur.jpg" alt=""></a>
-                <a href="html/4charmander.html"><img class="img-fluid" src="img/4Charmander.jpg" alt=""></a>
-                <a href="html/5gengar.html"><img class="img-fluid" src="img/5Gengar.jpg" alt=""></a>
-                <a href="html/6lucario.html"><img class="img-fluid" src="img/6Lucario.jpg" alt=""></a>
-                <a href="html/7mewtwo.html"><img class="img-fluid" src="img/7Mewtwo.jpg" alt=""></a>
-                <a href="html/8gardevoir.html"><img class="img-fluid" src="img/8Gardevoir.jpg" alt=""></a>
-                <a href="html/9squirtle.html"><img class="img-fluid" src="img/9Squirtle.jpg" alt=""></a>
-                <a href="html/10psyduck.html"><img class="img-fluid" src="img/10Psyduck.jpg" alt=""></a>
-            </section>
         </section>
-
-        <section class="bottom">
-            <div class="mcd-download-app">
-                <div class="mcd-download-app__content">
-                    <div class="mcd-container">
-                        <div class="mcd-download-app__content-header">
-                            <div class="mcd-image">
-                                <img src="assets/mcdonalds-logo-bg-red.png" alt="Mc-Donalds App">
+            <section class="bottom">
+                <div class="mcd-download-app">
+                    <div class="mcd-download-app__content">
+                        <div class="mcd-container">
+                            <div class="mcd-download-app__content-header">
+                                <div class="mcd-image">
+                                    <img src="../assets/mcdonalds-logo-bg-red.png" alt="Mc-Donalds App">
+                                </div>
+                                <div class="mcd-download-app__content-text">
+                                    <h2>Descárgate nuestra app</h2>
+                                    <p class="is-hidden-touch">Descárgate nuestra app y no te pierdas nuestras novedades
+                                    </p>
+                                </div>
+                                <div class="mcd-download-app__content-action is-hidden-touch">
+                                    <a href="/" target="_self"
+                                        class="mcd-link-resolver mcd-link-page button is-secondary">Descargar ahora</a>
+                                </div>
                             </div>
-                            <div class="mcd-download-app__content-text">
-                                <h2>Descárgate nuestra app</h2>
-                                <p class="is-hidden-touch">Descárgate nuestra app y no te pierdas nuestras novedades</p>
+                            <div class="mcd-download-app__content-description is-hidden-desktop">
+                                <p>Descárgate nuestra app y no te pierdas nuestras novedades</p>
                             </div>
-                            <div class="mcd-download-app__content-action is-hidden-touch">
+                            <div class="mcd-download-app__content-action is-hidden-desktop">
                                 <a href="/" target="_self"
                                     class="mcd-link-resolver mcd-link-page button is-secondary">Descargar ahora</a>
                             </div>
                         </div>
-                        <div class="mcd-download-app__content-description is-hidden-desktop">
-                            <p>Descárgate nuestra app y no te pierdas nuestras novedades</p>
-                        </div>
-                        <div class="mcd-download-app__content-action is-hidden-desktop">
-                            <a href="/" target="_self"
-                                class="mcd-link-resolver mcd-link-page button is-secondary">Descargar ahora</a>
-                        </div>
                     </div>
-                </div>
-                <div class="mcd-download-app__drops mcd-container is-animated">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1047" height="53" viewBox="0 0 1047 53"
-                        class="mcd-svg-drops-desktop is-hidden-touch">
-                        <g fill="#FFBC0D" fill-rule="evenodd">
-                            <path
-                                d="M783 0h8.898c27.346 1.109 41.205 29.39 70.124 24.947 10.435-1.602 19.12-7.673 30.019-7.762 26.084-.21 38.888 29.7 63.222 34.884 7.298 1.555 14.958 1.35 21.71-2.062 5.922-2.992 10.522-7.947 14.51-13.13 6.888-8.958 13.024-18.669 21.26-26.511 4.48-4.262 9.887-8.221 16.028-9.521 2.384-.506 4.793-.72 7.207-.845H1046M0 0c95.445 0 125.033 46.115 167.984 46.115C219.525 46.115 251.974 0 325.469 0c53.687 0 70.33 25.94 94.489 25.94C448.951 25.94 467.205 0 508.544 0"
-                                transform="translate(.32)"></path>
-                        </g>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="320" height="16" viewBox="0 0 320 16"
-                        class="mcd-svg-drops-mobile is-hidden-desktop">
-                        <g fill="none" fill-rule="evenodd">
-                            <g fill="#FFBC0D">
-                                <g>
-                                    <path
-                                        d="M241 0h2.673c8.214.335 12.377 8.872 21.064 7.531 3.134-.483 5.743-2.316 9.017-2.343 7.835-.063 11.681 8.966 18.99 10.531 2.192.47 4.494.408 6.522-.623 1.779-.903 3.16-2.399 4.358-3.963 2.07-2.705 3.912-5.636 6.386-8.004 1.346-1.286 2.97-2.481 4.815-2.874.716-.153 1.44-.217 2.165-.255H320M0 0c28.903 0 37.863 13 50.87 13C66.478 13 76.304 0 98.56 0c16.258 0 21.298 7.313 28.614 7.313C135.954 7.313 141.482 0 154 0"
-                                        transform="translate(0 -198) translate(0 198)"></path>
+                    <div class="mcd-download-app__drops mcd-container is-animated">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1047" height="53" viewBox="0 0 1047 53"
+                            class="mcd-svg-drops-desktop is-hidden-touch">
+                            <g fill="#FFBC0D" fill-rule="evenodd">
+                                <path
+                                    d="M783 0h8.898c27.346 1.109 41.205 29.39 70.124 24.947 10.435-1.602 19.12-7.673 30.019-7.762 26.084-.21 38.888 29.7 63.222 34.884 7.298 1.555 14.958 1.35 21.71-2.062 5.922-2.992 10.522-7.947 14.51-13.13 6.888-8.958 13.024-18.669 21.26-26.511 4.48-4.262 9.887-8.221 16.028-9.521 2.384-.506 4.793-.72 7.207-.845H1046M0 0c95.445 0 125.033 46.115 167.984 46.115C219.525 46.115 251.974 0 325.469 0c53.687 0 70.33 25.94 94.489 25.94C448.951 25.94 467.205 0 508.544 0"
+                                    transform="translate(.32)"></path>
+                            </g>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="320" height="16" viewBox="0 0 320 16"
+                            class="mcd-svg-drops-mobile is-hidden-desktop">
+                            <g fill="none" fill-rule="evenodd">
+                                <g fill="#FFBC0D">
+                                    <g>
+                                        <path
+                                            d="M241 0h2.673c8.214.335 12.377 8.872 21.064 7.531 3.134-.483 5.743-2.316 9.017-2.343 7.835-.063 11.681 8.966 18.99 10.531 2.192.47 4.494.408 6.522-.623 1.779-.903 3.16-2.399 4.358-3.963 2.07-2.705 3.912-5.636 6.386-8.004 1.346-1.286 2.97-2.481 4.815-2.874.716-.153 1.44-.217 2.165-.255H320M0 0c28.903 0 37.863 13 50.87 13C66.478 13 76.304 0 98.56 0c16.258 0 21.298 7.313 28.614 7.313C135.954 7.313 141.482 0 154 0"
+                                            transform="translate(0 -198) translate(0 198)"></path>
+                                    </g>
                                 </g>
                             </g>
-                        </g>
-                    </svg>
+                        </svg>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
     </main>
     <footer class="mcd-footer">
         <div class="mcd-container mcd-footer-toolbar">
@@ -323,14 +350,14 @@
                 </div>
                 <div class="column">
                     <div class="mcd-footer-brand">
-                        <img src="assets/mcdonalds-logo-footer-bg-white.png" alt="McDonald's logo">
+                        <img src="../assets/mcdonalds-logo-footer-bg-white.png" alt="McDonald's logo">
                         © McDonald's 2023
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="js/3.js"></script>
+    <script src="../js/3.js"></script>
 </body>
 
 </html>

@@ -123,14 +123,9 @@ a:hover {
     position: relative
 }
 
-
-
-/* Agregado de imagen de fondo tipo papel desde 1540(Alejandra) */
-@media screen and (min-width:1540px) {
-    .portada {
-        background-image: url(../img/papel2.jpg);
-    }
-   
+/* Agregado de imagen de fondo tipo papel a seccion Portada (Alejandra) */
+.portada {
+    background-image: url(../img/papel2.jpg);
 }
 
 /* Agregado para que el video quede al borde hasta 1023(Alejandra) */
