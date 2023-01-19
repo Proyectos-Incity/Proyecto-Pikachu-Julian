@@ -20,7 +20,7 @@ previousColors.onclick = function (event) {
 
 paths.forEach(function (path) {
     path.onclick = function (event) {
-        let originalColor = "rgb(181,181,181)";
+        let originalColor = "rgb(255,255,255)";
         if (event.target.style.fill) {
             originalColor = event.target.style.fill;
         }

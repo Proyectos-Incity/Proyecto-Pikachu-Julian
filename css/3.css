@@ -1,17 +1,6 @@
 
 #Capa_1 path {
-    cursor: pointer;
-    stroke: black;
-    stroke-width: 1px;
-    stroke-linejoin: round;
-    fill: white;
-}
-
-.selected {
-    fill: green;
-    stroke: black;
-    stroke-width: 2px;
-    stroke-linejoin: round;
+    cursor: pointer;   
 }
 
 .previous-colors {
