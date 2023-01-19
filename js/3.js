@@ -35,15 +35,15 @@ paths.forEach(function (path) {
 })
 
 //Boton Deshacer
-undo.onclick = function () {
-    const lastItemIndex = history.length - 1;
-    history[lastItemIndex].element.style.fill = history[lastItemIndex].previousColor;
+// undo.onclick = function () {
+//     const lastItemIndex = history.length - 1;
+//     history[lastItemIndex].element.style.fill = history[lastItemIndex].previousColor;
 
-}
+// }
 
-//Descarga ed SVG
+//Descarga de SVG
 function downloadSVGAsText() {
-    const svg = document.querySelector('svg');
+    const svg = document.querySelector('#Capa_1');
     const base64doc = btoa(unescape(encodeURIComponent(svg.outerHTML)));
     const a = document.createElement('a');
     const e = new MouseEvent('click');
