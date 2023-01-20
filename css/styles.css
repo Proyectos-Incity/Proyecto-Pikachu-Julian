@@ -38,7 +38,7 @@ video {
 .img-fluid:hover {    
     transition: all 0.5s;
     rotate: -5deg;
-    box-shadow: 0 3px 40px rgb(270, 270, 270);
+    box-shadow: 0 3px 40px rgb(270, 270, 270);    
     
 }
 
@@ -46,9 +46,8 @@ video {
 .rot:hover {    
     transition: all 0.5s;
     rotate: 5deg;
-    box-shadow: 0 3px 40px rgb(270, 270, 270);
+    box-shadow: 0 3px 40px rgb(270, 270, 270);   
     
-        
 }
 
 /* #cajita {
