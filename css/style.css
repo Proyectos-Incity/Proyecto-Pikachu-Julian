@@ -128,10 +128,10 @@ a:hover {
     background-image: url(../img/papel2.jpg);
 }
 
-/* Agregado para que el video quede al borde hasta 1023(Alejandra) */
-@media screen and (max-width:1023px) {
+/* Agregado para que el video quede al borde hasta 768(Alejandra) */
+@media screen and (max-width:768px) {
     body  {
-        padding-top: 1em;
+        padding-top: 0.4em;
     }   
     
     video {
