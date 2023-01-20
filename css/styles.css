@@ -1,15 +1,14 @@
-
-
 /* Video portada */
 video {
-    width: 100vw;    
+    width: 100vw;
     clip-path: inset(6% 0% 6% 0%);
     /*recorte de bordes negros sup e inf*/
 
     /* position: relative;
     top: -35px; */
-    
+
 }
+
 .portada {
     display: flex;
     justify-content: center;
@@ -27,12 +26,24 @@ video {
 .img-fluid {
     width: 100%;
     height: auto;
-    opacity: 0.5;
+    
 }
 
 
-.img-fluid:hover {
+/* .img-fluid:hover {
     transform: scale(1.01);
     transition: all 0.5s;
-    opacity: 1;
+    
+} */
+
+/* Animación de banners impares 5° a la izquierda */
+.img-fluid:hover {    
+    transition: all 0.5s;
+    rotate: -5deg;
+}
+
+/* Animación de banners pares 5° a la derecha */
+.rot:hover {    
+    transition: all 0.5s;
+    rotate: 5deg;
 }

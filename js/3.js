@@ -30,7 +30,8 @@ paths.forEach(function (path) {
         }
         history.push(action);
         console.log(history);
-        event.target.style.fill = chosenColor; chosenColor;
+        event.target.style.fill = chosenColor;
+        chosenColor;
     }
 })
 
@@ -59,14 +60,13 @@ downloadSVG.addEventListener('click', downloadSVGAsText);
 //Boton RESET
 let drawing = document.getElementById("Capa_1")
 let reset = document.querySelector('.reset')
-    reset.addEventListener('click', (e) => {
-        e.preventDefault()
-        let test = drawing.querySelectorAll('path')
-        test.forEach((element) => {
-            if (e.target.parentNode.id != 'Black' && e.target.id != 'Capa_1'){
-                element.style.fill = '#fff'
-            }
-        })
+reset.addEventListener('click', (e) => {
+    e.preventDefault()
+    let test = drawing.querySelectorAll('path')
+    test.forEach((element) => {
+        if (e.target.parentNode.id != 'Black' && e.target.id != 'Capa_1') {
+            element.style.fill = '#fff'
+        }
     })
-
+})
 
