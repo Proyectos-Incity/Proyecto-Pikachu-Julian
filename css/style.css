@@ -136,7 +136,7 @@ a:hover {
     
     video {
         padding-top: 0.2em;        
-        min-width: 200vw; /* si quieres que ocupe la mitad de la pantalla, sino coloca px. */
+        min-width: 200vw; 
         overflow: hidden;
         
     }

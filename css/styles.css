@@ -3,10 +3,6 @@ video {
     width: 100vw;
     clip-path: inset(6% 0% 6% 0%);
     /*recorte de bordes negros sup e inf*/
-
-    /* position: relative;
-    top: -35px; */
-
 }
 
 .portada {
