@@ -47,3 +47,10 @@ video {
     transition: all 0.5s;
     rotate: 5deg;
 }
+
+#cajita {
+    z-index: 100;
+    width: 20em;
+    height: 10em;
+    position: absolute;
+}
