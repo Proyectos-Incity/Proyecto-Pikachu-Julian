@@ -18,6 +18,7 @@ video {
     justify-content: center;
     flex-direction: column;
     width: 100vw;
+    background-image: url(../img/papel2.jpg);
 }
 
 .img-fluid {
@@ -46,6 +47,7 @@ video {
     transition: all 0.5s;
     rotate: 5deg;
     box-shadow: 0 3px 40px rgb(270, 270, 270);
+    
         
 }
 
