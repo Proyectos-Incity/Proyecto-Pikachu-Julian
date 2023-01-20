@@ -40,6 +40,7 @@ video {
 .img-fluid:hover {    
     transition: all 0.5s;
     rotate: -5deg;
+    
 }
 
 /* Animación de banners pares 5° a la derecha */
