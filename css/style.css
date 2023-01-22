@@ -1659,7 +1659,7 @@ button {
     display: flex;
     align-items: center;
     background-color: var(--color-primario);
-    height: 90px;
+    height: 76px;
     padding: 10px;
     justify-content: flex-start;
 }
