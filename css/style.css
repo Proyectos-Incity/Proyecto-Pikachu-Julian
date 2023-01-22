@@ -130,18 +130,26 @@ a:hover {
 
 /* Agregado para que el video quede al borde hasta 768(Alejandra) */
 @media screen and (max-width:768px) {
-    body  {
+    body {
         padding-top: 0.4em;
-    }   
-    
+    }
+
     video {
-        padding-top: 1.5em;        
-        min-width: 200vw; 
+        padding-top: 1.5em;
+        min-width: 200vw;
         overflow: hidden;
-        
+
     }
 }
 
+/* Agregado para que el menu grande desaparezca hasta 1022 */
+@media screen and (max-width:1023px) {
+    #menugrande {
+        display: none;
+    }
+
+
+}
 
 
 @media screen and (min-width:1024px) {
@@ -1078,9 +1086,9 @@ h2 {
     margin-left: 0
 }
 
-.mcd-navbar-header .navbar-brand {
+/* .mcd-navbar-header .navbar-brand {
     align-items: center
-}
+} */
 
 .mcd-navbar-header .navbar-brand .navbar-item {
     width: 50px;
@@ -1621,4 +1629,212 @@ button {
 
 .clear:hover {
     background-color: rgb(194, 191, 191);
+}
+
+
+/* Agregado estilos menu chico */
+/* configuración inicial */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#menuchico {
+    --color-primario: #white;
+    --color-secundario: grey;
+}
+
+#menuchico a {
+    text-decoration: none;
+}
+
+#menuchico ul {
+    list-style: none;
+}
+
+/* Padre de toda la navegacion */
+#menuchico nav {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primario);
+    height: 90px;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+/* Menú principal */
+/* /* #menuchico nav>ul {
+    display: flex;
+    margin-left: auto;
+} */
+
+#menuchico nav li a {
+    color: var(--color-secundario);
+    padding: 5px 10px;
+    display: block;
+    border-radius: 10px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#menuchico nav li a:hover {
+    background: var(--color-secundario);
+    color: var(--color-primario);
+}
+
+*/
+/* submenu */
+/* /* #menuchico nav ul ul {
+    display: none;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+} */
+
+#menuchico nav ul li:hover ul {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    background: var(--color-primario);
+    padding: 5px;
+    text-align: center;
+}
+
+#menuchico nav ul ul a {
+    padding: 5px;
+}
+
+#menuchico nav ul ul a:hover {
+    background: var(--color-secundario);
+    color: var(--color-primario);
+}
+
+*/
+
+/* Ubicación de los "palitos" de la hamburguesa */
+#menuchico nav label {
+    display: none;
+    margin-left: 3vw;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* checkbox oculto para el truco */
+#menuchico nav input {
+    display: none;
+}
+
+/* Icono "Hamburguesa" */
+#menuchico nav label span,
+#menuchico nav label span::before,
+#menuchico nav label span::after {
+    display: block;
+    background-color: var(--color-secundario);
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+#menuchico nav label span::before {
+    content: '';
+    margin-top: -8px;
+}
+
+#menuchico nav label span::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menuchico nav input:checked+label span::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menuchico nav input:checked+label span {
+    background: rgba(255, 255, 255, 0);
+    /* transparente */
+}
+
+#menuchico nav input:checked+label span::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+/* Mobile */
+@media (max-width: 1023px) {
+
+    /* Agregado Ale */
+    .navbar-brand__logo {
+        width: 50px;
+    }
+
+    #menuchico nav label {
+        display: flex;
+    }
+
+    /* menu se posiciona sobre el contenido */
+    #menuchico nav ul {
+        position: absolute;
+        top: 0;
+        /* el margin top debe ser igual que el alto del nav */
+        margin-top: 90px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menuchico nav input~ul li {
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
+
+    /* efecto de fade in */
+    #menuchico nav input:checked~ul li {
+        padding: 5px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #menuchico nav>ul li {
+        padding: 5px 0;
+        width: 100%;
+        background-color: var(--color-primario);
+    }
+
+    #menuchico nav>ul li a {
+        display: block;
+        text-align: left;
+        line-height: 1.5;
+        background-color: white;
+        width: 30vw;
+    }
+
+    /* submenu */
+    #menuchico nav>ul li ul {
+        display: none;
+        position: inherit;
+        margin: 0;
+    }
+
+    #menuchico nav ul li:hover ul {
+        position: relative;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    #menuchico {
+        display: none;
+    }
+
 }

@@ -10,17 +10,19 @@
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styles.css">
+    
 
     <!-- Favicon -->
     <link rel="icon" type="image/vnd.microsoft.icon" href="../img/favicon.ico">
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
 
 </head>
 
 <body>
-    <header>
+    <header id="menugrande">
         <nav role="navigation" aria-label="main navigation" class="navbar mcd-navbar-header mcd-container">
             <div class="navbar-brand">
                 <a href="https://www.mcdonalds.cl/" class="navbar-item nuxt-link-active">
@@ -38,13 +40,16 @@
             <div class="navbar-menu__container">
                 <div class="navbar-menu navbar-menu--utility">
                     <div class="navbar-start mcd-navbar-menu--utility">
-                        <a href="https://www.mcdonalds.cl/nosotros/trabaja-con-nosotros/" class="mcd-link-resolver mcd-link-page navbar-item" target="_self">Trabaja con
+                        <a href="https://www.mcdonalds.cl/nosotros/trabaja-con-nosotros/"
+                            class="mcd-link-resolver mcd-link-page navbar-item" target="_self">Trabaja con
                             nosostros</a>
-                        <a href="https://www.mcdonalds.cl/nosotros/contacto" class="mcd-link-resolver mcd-link-page navbar-item" target="_self"
+                        <a href="https://www.mcdonalds.cl/nosotros/contacto"
+                            class="mcd-link-resolver mcd-link-page navbar-item" target="_self"
                             title="Contacto">Contacto</a>
                     </div>
                     <div class="navbar-end mcd-navbar-menu--actions">
-                        <a href="https://www.mcdonalds.cl/descarga_app" target="_self" class="mcd-link-resolver mcd-link-page navbar-item">
+                        <a href="https://www.mcdonalds.cl/descarga_app" target="_self"
+                            class="mcd-link-resolver mcd-link-page navbar-item">
                             <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject"
                                 class="mcd-media-image">
                                 <img src="assets/MCD_Descarga_la_app_406b004273.png" alt="McDonald's - Descarga la app"
@@ -77,7 +82,8 @@
                                 class="mcd-link-resolver mcd-link-page navbar-item header-submenu-item is-hidden-touch"
                                 target="_self">Productos</a>
                         </div>
-                        <a href="https://www.mcdonalds.cl/locales" class="mcd-link-resolver mcd-link-page navbar-item header-submenu-item"
+                        <a href="https://www.mcdonalds.cl/locales"
+                            class="mcd-link-resolver mcd-link-page navbar-item header-submenu-item"
                             target="_self">Locales</a>
                         <div class="navbar-item is-hoverable has-dropdown mcd-dropdown-item">
                             <a class="navbar-item header-submenu-item is-hidden-desktop">
@@ -132,17 +138,47 @@
             </div>
         </nav>
     </header>
+
+    <header id="menuchico">
+        <nav>
+            <a href=""><img src="assets/mcdonalds-logo-footer-bg-white.png" alt="Mc-Donalds App"
+                    class="navbar-brand__logo"></a>
+            <!-- visible en mobile -->
+            <input type="checkbox" id="alternar" />
+            <label for="alternar">
+
+                <span></span>
+            </label>
+            <!-- fin mobile -->
+            <ul>
+                <li><a href="https://www.mcdonalds.cl/productos">Prouctos</a></li>
+                <li><a href="https://www.mcdonalds.cl/locales">Locales</a></li>
+                <li><a href="https://www.mcdonalds.cl/familia">Familia</a>
+                    <!-- <ul>
+                        <li><a href="">Subsección 3A</a></li>
+                        <li><a href="">Subsección 3B</a></li>
+                        <li><a href="">Subsección 3C</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="https://www.mcdonalds.cl/comunidad">McDonald's en la comunidad</a></li>
+                <li><a href="https://www.mcdonalds.cl/nosotros">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
     <main>
         <section class="middle">
             <section class="portada">
                 <video autoplay loop muted>
                     <source src="img/video1.mp4" type="video/mp4" />
                 </video>
-                
+
             </section>
 
             <section class="banners">
-                <a href="html/1pikachu.html" ><img class="img-fluid" src="img/1Pikachu.jpg" alt=""></a>
+                <a href="html/1pikachu.html"><img class="img-fluid" src="img/1Pikachu.jpg" alt=""></a>
                 <a href="html/2eevee.html"><img class="img-fluid rot" src="img/2Eevee.jpg" alt=""></a>
                 <a href="html/3bulbasaur.html"><img class="img-fluid" src="img/3Bulbasaur.jpg" alt=""></a>
                 <a href="html/4charmander.html"><img class="img-fluid rot" src="img/4Charmander.jpg" alt=""></a>
@@ -213,7 +249,8 @@
                     <div class="mcd-footer-social">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/McDonaldsChile" target="_blank" title="Facebook" class="mcd-link-resolver mcd-link-url">
+                                <a href="https://www.facebook.com/McDonaldsChile" target="_blank" title="Facebook"
+                                    class="mcd-link-resolver mcd-link-url">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"
                                         class="mcd-svg-facebook">
                                         <g fill="none" fill-rule="evenodd">
@@ -228,7 +265,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/mcdonalds_cl" target="_self" title="Twitter" class="mcd-link-resolver mcd-link-url">
+                                <a href="https://twitter.com/mcdonalds_cl" target="_self" title="Twitter"
+                                    class="mcd-link-resolver mcd-link-url">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"
                                         class="mcd-svg-twitter">
                                         <g fill="none" fill-rule="evenodd">
@@ -243,7 +281,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/mcdonalds_cl/" target="_blank" title="Instagram" class="mcd-link-resolver mcd-link-url">
+                                <a href="https://www.instagram.com/mcdonalds_cl/" target="_blank" title="Instagram"
+                                    class="mcd-link-resolver mcd-link-url">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"
                                         class="mcd-svg-instagram">
                                         <g fill="none" fill-rule="evenodd">
@@ -261,7 +300,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UC9BqwHQ9cbsSULb1kmwvY8A" target="_blank" title="Youtube" class="mcd-link-resolver mcd-link-url">
+                                <a href="https://www.youtube.com/channel/UC9BqwHQ9cbsSULb1kmwvY8A" target="_blank"
+                                    title="Youtube" class="mcd-link-resolver mcd-link-url">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"
                                         class="mcd-svg-youtube">
                                         <g fill="none" fill-rule="evenodd">
@@ -290,7 +330,8 @@
                     <div class="mcd-footer-apps">
                         <ul class="columns is-mobile is-multiline">
                             <li class="column is-6 is-narrow-desktop">
-                                <a href="https://apps.apple.com/cl/app/mcdonalds-app/id1114009187" target="_blank" class="mcd-link-resolver mcd-link-url">
+                                <a href="https://apps.apple.com/cl/app/mcdonalds-app/id1114009187" target="_blank"
+                                    class="mcd-link-resolver mcd-link-url">
                                     <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject"
                                         class="mcd-media-image">
                                         <img src="../assets/app_store_3x_d293084ca1.png" alt="" loading="lazy">
@@ -298,10 +339,12 @@
                                 </a>
                             </li>
                             <li class="column is-6 is-narrow-desktop">
-                                <a href="https://play.google.com/store/apps/details?id=com.mcdo.mcdonalds&hl" target="_blank" class="mcd-link-resolver mcd-link-url">
+                                <a href="https://play.google.com/store/apps/details?id=com.mcdo.mcdonalds&hl"
+                                    target="_blank" class="mcd-link-resolver mcd-link-url">
                                     <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject"
                                         class="mcd-media-image">
-                                        <img src="../assets/disponible_google_play_3x_c977cae3bc.png" alt="" loading="lazy">
+                                        <img src="../assets/disponible_google_play_3x_c977cae3bc.png" alt=""
+                                            loading="lazy">
                                     </figure>
                                 </a>
                             </li>
@@ -317,15 +360,18 @@
                     <div class="mcd-footer-legal">
                         <ul class="columns is-variable is-0-mobile is-3-desktop is-mobile is-multiline">
                             <li class="column is-narrow">
-                                <a href="https://www.mcdonalds.cl/politica-de-privacidad" target="_self" class="mcd-link-resolver mcd-link-page">Política de
+                                <a href="https://www.mcdonalds.cl/politica-de-privacidad" target="_self"
+                                    class="mcd-link-resolver mcd-link-page">Política de
                                     Privacidad</a>
                             </li>
                             <li class="column is-narrow">
-                                <a href="https://www.mcdonalds.cl/terminos-y-condiciones" target="_self" class="mcd-link-resolver mcd-link-page"> Términos y
+                                <a href="https://www.mcdonalds.cl/terminos-y-condiciones" target="_self"
+                                    class="mcd-link-resolver mcd-link-page"> Términos y
                                     Condiciones</a>
                             </li>
-                            <li class="column is-narrow"><a href="https://www.mcdonalds.cl/proteccion-datos-personales" target="_self"
-                                    class="mcd-link-resolver mcd-link-page">Protección de datos personales</a>
+                            <li class="column is-narrow"><a href="https://www.mcdonalds.cl/proteccion-datos-personales"
+                                    target="_self" class="mcd-link-resolver mcd-link-page">Protección de datos
+                                    personales</a>
                             </li>
                         </ul>
                     </div>
@@ -339,7 +385,10 @@
             </div>
         </div>
     </footer>
+
     <script src="js/3.js"></script>
+
+
 </body>
 
 </html>
