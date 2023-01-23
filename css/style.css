@@ -1786,7 +1786,7 @@ button {
         flex-direction: column;        
         justify-content: center;
         align-items: center;        
-        width: 50vw
+        width: 20vw
     }
 
     #menuchico nav input~ul li {
@@ -1812,7 +1812,7 @@ button {
         text-align: left;
         line-height: 1.5;
         background-color: white;
-        width: 30vw;
+        width: 20vw;
         border: solid 0.5px #f8b707;
     }
 
