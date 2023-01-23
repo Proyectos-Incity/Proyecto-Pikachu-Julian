@@ -19,10 +19,10 @@
 </head>
 
 <body>
-    <header>
+    <header id="menugrande">
         <nav role="navigation" aria-label="main navigation" class="navbar mcd-navbar-header mcd-container">
             <div class="navbar-brand">
-                <a href="https://www.mcdonalds.cl/" class="navbar-item nuxt-link-active">
+                <a href="../index.html" class="navbar-item nuxt-link-active">
                     <img src="../assets/mcdonalds-logo-footer-bg-white.png" alt="Mc-Donalds App"
                         class="navbar-brand__logo">
                 </a>
@@ -49,8 +49,8 @@
                             class="mcd-link-resolver mcd-link-page navbar-item">
                             <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject"
                                 class="mcd-media-image">
-                                <img src="../assets/MCD_Descarga_la_app_406b004273.png"
-                                    alt="McDonald's - Descarga la app" loading="lazy">
+                                <img src="../assets/MCD_Descarga_la_app_406b004273.png" alt="McDonald's - Descarga la app"
+                                    loading="lazy">
                             </figure>
                             Descarga la app
                         </a>
@@ -135,6 +135,34 @@
             </div>
         </nav>
     </header>
+
+    <header id="menuchico">
+        <nav>
+            <a href="../index.html"><img src="../assets/mcdonalds-logo-footer-bg-white.png" alt="Mc-Donalds App"
+                    class="navbar-brand__logo"></a>
+            <!-- visible en mobile -->
+            <input type="checkbox" id="alternar" />
+            <label for="alternar">
+
+                <span></span>
+            </label>
+            <!-- fin mobile -->
+            <ul>
+                <li><a href="https://www.mcdonalds.cl/productos">Prouctos</a></li>
+                <li><a href="https://www.mcdonalds.cl/locales">Locales</a></li>
+                <li><a href="https://www.mcdonalds.cl/familia">Familia</a>
+                    <!-- <ul>
+                        <li><a href="">Subsección 3A</a></li>
+                        <li><a href="">Subsección 3B</a></li>
+                        <li><a href="">Subsección 3C</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="https://www.mcdonalds.cl/comunidad">McDonald's en la comunidad</a></li>
+                <li><a href="https://www.mcdonalds.cl/nosotros">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <section class="middle">
 
@@ -3220,6 +3248,7 @@ SUVORK5CYII=" transform="matrix(0.48 0 0 0.48 409.4 930.68)">
             </div>
         </section>
     </main>
+
     <footer class="mcd-footer">
         <div class="mcd-container mcd-footer-toolbar">
             <div class="columns is-desktop">
@@ -3363,6 +3392,7 @@ SUVORK5CYII=" transform="matrix(0.48 0 0 0.48 409.4 930.68)">
             </div>
         </div>
     </footer>
+
     <script src="../js/3.js"></script>
 </body>
 
