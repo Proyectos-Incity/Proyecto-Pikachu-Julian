@@ -37,7 +37,6 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: 3em;
     background-image: url(../img/papel2.jpg);
 }
 
@@ -45,8 +44,8 @@
 
 .pikachu {
     width: 65%; 
-    margin-top: 1%;
-    margin-left: 1%;
+    margin-top: 3%;
+    /* margin-left: 0.5%; */
 }
 
 .colores {
@@ -54,7 +53,10 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 3%;    
-    margin: 1.5%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-right: 2%;
     box-shadow: 0 3px 10px rgb(201 200 200);
     border-radius: 5em;
     background-color: white;
