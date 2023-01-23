@@ -135,7 +135,7 @@ a:hover {
     }
 
     video {
-        padding-top: 3.5em;
+        padding-top: 2em;
         min-width: 200vw;
         overflow: hidden;
 
@@ -1659,7 +1659,7 @@ button {
     display: flex;
     align-items: center;
     background-color: var(--color-primario);
-    height: 76px;
+    height: 55px;
     padding: 10px;
     justify-content: flex-start;
 }
@@ -1786,10 +1786,10 @@ button {
         /* el margin top debe ser igual que el alto del nav */
         margin-top: 90px;
         left: 0;
-        flex-direction: column;
-        width: 100%;
+        flex-direction: column;        
         justify-content: center;
-        align-items: center;
+        align-items: center;        
+        width: 50vw
     }
 
     #menuchico nav input~ul li {
@@ -1816,6 +1816,7 @@ button {
         line-height: 1.5;
         background-color: white;
         width: 30vw;
+        border: solid 0.5px #f8b707;
     }
 
     /* submenu */

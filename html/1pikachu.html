@@ -19,10 +19,10 @@
 </head>
 
 <body>
-    <header>
+	<header id="menugrande">
         <nav role="navigation" aria-label="main navigation" class="navbar mcd-navbar-header mcd-container">
             <div class="navbar-brand">
-                <a href="https://www.mcdonalds.cl/" class="navbar-item nuxt-link-active">
+                <a href="../index.html" class="navbar-item nuxt-link-active">
                     <img src="../assets/mcdonalds-logo-footer-bg-white.png" alt="Mc-Donalds App"
                         class="navbar-brand__logo">
                 </a>
@@ -31,7 +31,7 @@
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
-                <a href="https://www.mcdonalds.cl/descarga_app" target="_self" role="button"
+                <a href="/" target="_self" role="button"
                     class="mcd-link-resolver mcd-link-page button is-primary is-hidden-desktop">Pedidos</a>
             </div>
             <div class="navbar-menu__container">
@@ -45,11 +45,12 @@
                             title="Contacto">Contacto</a>
                     </div>
                     <div class="navbar-end mcd-navbar-menu--actions">
-                        <a href="" target="_self" class="mcd-link-resolver mcd-link-page navbar-item">
+                        <a href="https://www.mcdonalds.cl/descarga_app" target="_self"
+                            class="mcd-link-resolver mcd-link-page navbar-item">
                             <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject"
                                 class="mcd-media-image">
-                                <img src="../assets/MCD_Descarga_la_app_406b004273.png"
-                                    alt="McDonald's - Descarga la app" loading="lazy">
+                                <img src="../assets/MCD_Descarga_la_app_406b004273.png" alt="McDonald's - Descarga la app"
+                                    loading="lazy">
                             </figure>
                             Descarga la app
                         </a>
@@ -134,6 +135,34 @@
             </div>
         </nav>
     </header>
+
+    <header id="menuchico">
+        <nav>
+            <a href="../index.html"><img src="../assets/mcdonalds-logo-footer-bg-white.png" alt="Mc-Donalds App"
+                    class="navbar-brand__logo"></a>
+            <!-- visible en mobile -->
+            <input type="checkbox" id="alternar" />
+            <label for="alternar">
+
+                <span></span>
+            </label>
+            <!-- fin mobile -->
+            <ul>
+                <li><a href="https://www.mcdonalds.cl/productos">Prouctos</a></li>
+                <li><a href="https://www.mcdonalds.cl/locales">Locales</a></li>
+                <li><a href="https://www.mcdonalds.cl/familia">Familia</a>
+                    <!-- <ul>
+                        <li><a href="">Subsección 3A</a></li>
+                        <li><a href="">Subsección 3B</a></li>
+                        <li><a href="">Subsección 3C</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="https://www.mcdonalds.cl/comunidad">McDonald's en la comunidad</a></li>
+                <li><a href="https://www.mcdonalds.cl/nosotros">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <section class="middle">
 
@@ -2955,7 +2984,7 @@ AAARufEJALxCsxMAAAAAAAAAAAAAAAAAAAAAAADe3v4lwAA1IsJIvhH4vgAAAABJRU5ErkJggg=="
                                 </p>
                             </div>
                             <div class="mcd-download-app__content-action is-hidden-touch">
-                                <a href="/" target="_self"
+                                <a href="https://www.mcdonalds.cl/descarga_app" target="_self"
                                     class="mcd-link-resolver mcd-link-page button is-secondary">Descargar ahora</a>
                             </div>
                         </div>
@@ -2963,7 +2992,7 @@ AAARufEJALxCsxMAAAAAAAAAAAAAAAAAAAAAAADe3v4lwAA1IsJIvhH4vgAAAABJRU5ErkJggg=="
                             <p>Descárgate nuestra app y no te pierdas nuestras novedades</p>
                         </div>
                         <div class="mcd-download-app__content-action is-hidden-desktop">
-                            <a href="/" target="_self"
+                            <a href="https://www.mcdonalds.cl/descarga_app" target="_self"
                                 class="mcd-link-resolver mcd-link-page button is-secondary">Descargar ahora</a>
                         </div>
                     </div>
@@ -3081,18 +3110,21 @@ AAARufEJALxCsxMAAAAAAAAAAAAAAAAAAAAAAADe3v4lwAA1IsJIvhH4vgAAAABJRU5ErkJggg=="
                     <div class="mcd-footer-apps">
                         <ul class="columns is-mobile is-multiline">
                             <li class="column is-6 is-narrow-desktop">
-                                <a href="/" target="_blank" class="mcd-link-resolver mcd-link-url">
+                                <a href="https://apps.apple.com/cl/app/mcdonalds-app/id1114009187" target="_blank"
+                                    class="mcd-link-resolver mcd-link-url">
                                     <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject"
                                         class="mcd-media-image">
-                                        <img src="/app_store_3x_d293084ca1.png" alt="" loading="lazy">
+                                        <img src="../assets/app_store_3x_d293084ca1.png" alt="" loading="lazy">
                                     </figure>
                                 </a>
                             </li>
                             <li class="column is-6 is-narrow-desktop">
-                                <a href="/" target="_blank" class="mcd-link-resolver mcd-link-url">
+                                <a href="https://play.google.com/store/apps/details?id=com.mcdo.mcdonalds&hl"
+                                    target="_blank" class="mcd-link-resolver mcd-link-url">
                                     <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject"
                                         class="mcd-media-image">
-                                        <img src="/disponible_google_play_3x_c977cae3bc.png" alt="" loading="lazy">
+                                        <img src="../assets/disponible_google_play_3x_c977cae3bc.png" alt=""
+                                            loading="lazy">
                                     </figure>
                                 </a>
                             </li>
