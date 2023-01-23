@@ -132,7 +132,7 @@ a:hover {
 @media screen and (max-width:768px) {
    
     video {
-        padding-top: 2em;
+        /* padding-top: 2em; */
         min-width: 200vw;
         overflow: hidden;
 
