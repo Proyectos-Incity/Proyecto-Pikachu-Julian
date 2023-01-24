@@ -1,12 +1,16 @@
-# Proyecto Pikachu
-## Campaña Pokémon MC
+# Proyecto "Pikachu"
+`<link>` : https://alejandrardecajal.github.io/Proyecto-Pikachu-Julian/
+
 ## Cliente: McDonald's Chile
+## Campaña Pokémon MC
 
- `<link>` : https://alejandrardecajal.github.io/Proyecto-Pikachu-Julian/
+### Relizado para Incity - Agencia de Diseño
+[<img src="img/incity-logo.png" width="25%"](img/incity-logo.png)
+ 
 
 
 [<img src="img/vista-celu.png" width="25%"/>](/img/vista-celu.png) [<img src="img/vista-tablet.png" width="50%"/>](/img/vista-tablet.png)
-[<img src="img/vista-celu.png" width="25%"/>](/img/vista-celu.png) [<img src="img/vista-tablet.png" width="50%"/>](/img/vista-tablet.png)
+
 
 [<img src="img/vista-desktop.png" width="100%"/>](/img/vista-destop.png)
 
