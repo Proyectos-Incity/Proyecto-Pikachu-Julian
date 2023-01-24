@@ -1,8 +1,6 @@
 #Capa_1 path {
     cursor: pointer;
-    stroke: black;
-    /* stroke-width: 8px; */
-    /* stroke-linejoin: round;  */
+    stroke: black;    
     fill: white;
 }
 
@@ -39,12 +37,9 @@
     background-image: url(../img/papel2.jpg);
 }
 
-
-
 .pikachu {
     width: 65%;
-    margin-top: 3%;
-    /* margin-left: 0.5%; */
+    margin-top: 3%;    
 }
 
 .colores {
@@ -133,19 +128,9 @@
         right: -50%;
         top: -150%;
         bottom: -150%;
-        margin: auto;
-
-        /* min-height: 100%;
-        min-width: 100%; */
+        margin: auto;        
     }
-
-
-
 }
-
-
-
-
 
 @media only screen and (max-width: 1023px) {
     .section1 {
@@ -153,12 +138,10 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
-
     }
 
     .colores {
         width: 100%;
-
     }
 
     .prev-color {
