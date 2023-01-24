@@ -36,19 +36,23 @@ video {
 
 /* Animación de banners impares 5° a la izquierda */
 .img-fluid:hover {    
+    /* transition: all 0.5s;
+    rotate: -5deg;*/
+    box-shadow: 0 3px 40px rgb(270, 270, 270);
+    transform: scale(1.05);
     transition: all 0.5s;
-    rotate: -5deg;
-    box-shadow: 0 3px 40px rgb(270, 270, 270);    
     
 }
 
 /* Animación de banners pares 5° a la derecha */
 .rot:hover {    
-    transition: all 0.5s;
-    rotate: 5deg;
-    box-shadow: 0 3px 40px rgb(270, 270, 270);   
-    
+    /* transition: all 0.5s;
+    rotate: 5deg; */
+    /* box-shadow: 0 3px 40px rgb(270, 270, 270); 
+    transform: scale(1.05);
+    transition: all 0.5s; */
 }
+
 
 /* #cajita {
     z-index: 100;
