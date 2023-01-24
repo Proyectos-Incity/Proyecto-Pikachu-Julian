@@ -5,7 +5,7 @@
  `<link>` : https://alejandrardecajal.github.io/Proyecto-Pikachu-Julian/
 
 
-[<img src="img/vista-celu.png width="30vw")]
+[<img src="img/vista-celu.png" width="30vw"/>](/img/vista-celu.png)
 
 ![Tablet](/img/vista-tablet.png)
 
