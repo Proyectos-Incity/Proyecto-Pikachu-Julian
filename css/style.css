@@ -1810,7 +1810,7 @@ button {
     #menuchico nav>ul li a {
         display: block;
         text-align: left;
-        line-height: 1.5;
+        line-height: 1;
         background-color: white;
         width: 20vw;
         border: solid 0.5px #f8b707;
