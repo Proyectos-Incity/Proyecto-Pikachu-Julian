@@ -5,11 +5,11 @@
  `<link>` : https://alejandrardecajal.github.io/Proyecto-Pikachu-Julian/
 
 
-![Celu](/img/vista-celu.png)
+![Celu](/img/vista-celu.png){width='100px'}
 
-![Tablet](/img/vista-tablet.png)
+![Tablet](/img/vista-tablet.png){width='100px'}
 
-![Desktop](/img/vista-desktop.png)
+![Desktop](/img/vista-desktop.png){width='100px'}
 
 
 ## Landing Page para McDonald's Chile, sección Cajita Feliz
