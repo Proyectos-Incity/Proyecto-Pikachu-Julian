@@ -1,5 +1,5 @@
 # Proyecto "Pikachu"
-`<link>` : https://alejandrardecajal.github.io/Proyecto-Pikachu-Julian/
+`<link>` : https://proyectos-incity.github.io/Proyecto-Pikachu-Julian/
 
 ## Cliente: McDonald's Chile
 ## Campaña Pokémon MC
