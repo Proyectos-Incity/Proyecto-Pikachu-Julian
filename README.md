@@ -5,7 +5,7 @@
 ## Campaña Pokémon MC
 
 ### Relizado para Incity - Agencia de Diseño
-[<img src="img/incity-logo.png" width="25%"](img/incity-logo.png)
+[<img src="img/incity-logo.png" width="25%"/>](img/incity-logo.png)
  
 
 
