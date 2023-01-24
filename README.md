@@ -6,6 +6,7 @@
 
 
 [<img src="img/vista-celu.png" width="25%"/>](/img/vista-celu.png) [<img src="img/vista-tablet.png" width="50%"/>](/img/vista-tablet.png)
+[<img src="img/vista-celu.png" width="25%"/>](/img/vista-celu.png) [<img src="img/vista-tablet.png" width="50%"/>](/img/vista-tablet.png)
 
 [<img src="img/vista-desktop.png" width="100%"/>](/img/vista-destop.png)
 
