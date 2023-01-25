@@ -1804,10 +1804,10 @@ input:checked~ul {
     #menuchico nav>ul li a {
         display: block;
         text-align: left;
-        line-height: 1;
+        line-height: 1.5;
         background-color: white;
-        width: 25vw;
-        border: solid 0.5px #f8b707;
+        width: 30vw;
+        border: solid 1.5px #f8b707;
     }
 
     /* submenu */
